@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container > form {
+    width: 700px;
+    height: 456px;
+    border: 1px solid rgba(25, 0, 255, 1); /* настоящая рамка */
+    box-shadow:
+            0 0 8.4px rgba(25, 0, 255, 0.8),
+            0 0 16.8px rgba(25, 0, 255, 0.6),
+            0 0 58.8px rgba(25, 0, 255, 0.4),
+            0 0 117.6px rgba(25, 0, 255, 0.2),
+            0 0 201.6px rgba(25, 0, 255, 0.1),
+            0 0 250px rgba(25, 0, 255, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container > form h1 {
+    color: white;
+    margin: 25px 0 30px 0;
+    font-family: Rubik, sans-serif;
+    text-align: center;
+    font-weight: 5;
+}
+
+.container > form input {
+    border: 1.24px solid rgba(25, 0, 255, 1);
+    outline: none;
+    background: none;
+    padding: 20px;
+    width: 617px;
+    height: 70px;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+.container > form input::placeholder {
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+    opacity: 70%;
+}
+
+.container > form button {
+    border: 1.24px solid rgba(25, 0, 255, 1);
+    width: 250px;
+    height: 60px;
+    background: none;
+    outline: none;
+    border-radius: 126px;
+    color: white;
+    font-size: 18px;
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
