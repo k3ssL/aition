@@ -1,9 +1,8 @@
-import React from 'react';
 
 const MainPage = () => {
     return (
         <div>
-
+            <p style={{color: "white"}}>Main page</p>
         </div>
     );
 };

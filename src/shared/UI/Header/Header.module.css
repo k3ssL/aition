@@ -22,6 +22,6 @@ nav a {
     transition: all .3s;
 }
 
-nav a:hover {
+nav a:hover, .active_link {
     color: #00c5fe;
 }
