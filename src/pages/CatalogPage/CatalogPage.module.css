@@ -1,0 +1,103 @@
+.container {
+
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1290px;
+    margin: 50px auto;
+}
+
+.filters_item {
+    border: 3px solid rgba(25, 0, 255, 1);
+    border-radius: 50px 10px 50px 10px;
+    width: 250px;
+    height: 100px;
+    color: white;
+    font-family: Rubik, 'sans-serif';
+    font-size: 20px;
+    text-align: center;
+    padding-top: 35px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.filters_item:hover {
+    box-shadow:
+        0 0 3.6px 0 rgba(25, 0, 255, 1),
+        0 0 7.2px 0 rgba(25, 0, 255, 1),
+        0 0 25.2px 0 rgba(25, 0, 255, 1),
+        0 0 50.4px 0 rgba(25, 0, 255, 1),
+        0 0 86.4px 0 rgba(25, 0, 255, 1),
+        0 0 151.2px 0 rgba(25, 0, 255, 1);
+}
+
+.cards {
+    width: 1350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.card_item {
+    width: 300px;
+    height: 400px;
+    border: 3px solid rgba(25, 0, 255, 1);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_item img {
+    width: 400px;
+    height: auto;
+}
+
+.card_item h3 {
+    color: white;
+    font-family: Rubik, sans-serif;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.card_item p {
+    color: white;
+    font-family: Rubik, sans-serif;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+
+.card_item button {
+    border: 1.24px solid rgba(25, 0, 255, 1);
+    width: 250px;
+    height: 40px;
+    background: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: all .3s;
+}
+
+
+.card_item button:hover {
+    box-shadow:
+            0 0 3.6px 0 rgba(25, 0, 255, 1),
+            0 0 7.2px 0 rgba(25, 0, 255, 1),
+            0 0 25.2px 0 rgba(25, 0, 255, 1),
+            0 0 50.4px 0 rgba(25, 0, 255, 1),
+            0 0 86.4px 0 rgba(25, 0, 255, 1),
+            0 0 151.2px 0 rgba(25, 0, 255, 1);
+}
+
