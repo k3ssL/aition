@@ -4,7 +4,7 @@ import classes from './Header.module.css';
 const Header = () => {
     return (
         <div className={classes.container}>
-            <img src="/img/logo.png" alt="logo" />
+            <img src="/aition/img/logo.png" alt="logo" />
             <nav>
                 <NavLink
                     to="/"
