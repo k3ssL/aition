@@ -11,49 +11,49 @@ const CatalogPage = () => {
             </div>
             <div className={classes.cards}>
                 <div className={classes.card_item}>
-                    <img src={"/img/ipho.png"} alt={""}/>
+                    <img src={"/aition/img/ipho.png"} alt={""}/>
                     <h3>Iphone 16</h3>
                     <p>150.000₽</p>
                     <button>В корзину</button>
                 </div>
                 <div className={classes.card_item}>
-                    <img src={"/img/ipho.png"} alt={""}/>
+                    <img src={"/aition/img/ipho.png"} alt={""}/>
                     <h3>Iphone 16</h3>
                     <p>150.000₽</p>
                     <button>В корзину</button>
                 </div>
                 <div className={classes.card_item}>
-                    <img src={"/img/ipho.png"} alt={""}/>
+                    <img src={"/aition/img/ipho.png"} alt={""}/>
                     <h3>Iphone 16</h3>
                     <p>150.000₽</p>
                     <button>В корзину</button>
                 </div>
                 <div className={classes.card_item}>
-                    <img src={"/img/ipho.png"} alt={""}/>
+                    <img src={"/aition/img/ipho.png"} alt={""}/>
                     <h3>Iphone 16</h3>
                     <p>150.000₽</p>
                     <button>В корзину</button>
                 </div>
                 <div className={classes.card_item}>
-                    <img src={"/img/ipho.png"} alt={""}/>
+                    <img src={"/aition/img/ipho.png"} alt={""}/>
                     <h3>Iphone 16</h3>
                     <p>150.000₽</p>
                     <button>В корзину</button>
                 </div>
                 <div className={classes.card_item}>
-                    <img src={"/img/ipho.png"} alt={""}/>
+                    <img src={"/aition/img/ipho.png"} alt={""}/>
                     <h3>Iphone 16</h3>
                     <p>150.000₽</p>
                     <button>В корзину</button>
                 </div>
                 <div className={classes.card_item}>
-                    <img src={"/img/ipho.png"} alt={""}/>
+                    <img src={"/aition/img/ipho.png"} alt={""}/>
                     <h3>Iphone 16</h3>
                     <p>150.000₽</p>
                     <button>В корзину</button>
                 </div>
                 <div className={classes.card_item}>
-                    <img src={"/img/ipho.png"} alt={""}/>
+                    <img src={"/aition/img/ipho.png"} alt={""}/>
                     <h3>Iphone 16</h3>
                     <p>150.000₽</p>
                     <button>В корзину</button>
