@@ -1,3 +1,169 @@
+.banner {
+    width: 1200px;
+    height: 360px;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 56px;
+    font-family: Russ;
+    margin-bottom: 40px;
+}
+
+.description {
+    font-size: 24px;
+    font-family: ABZ;
+    margin-bottom: 60px;
+}
+
+.title, .description {
+    color: white;
+    text-align: left;
+}
+
+button {
+    width: 250px;
+    height: 60px;
+    background-color: #00C7FE;
+    border: none;
+    color: white;
+    font-family: Rubik;
+    font-weight: 800;
+    font-size: 24px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #009BC6;
+}
+
+.aboutUs {
+    width: 1300px;
+    height: 500px;
+    margin: 100px auto 0 auto;
+}
+
+h1 {
+    font-family: Rubik;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 280px;
+    height: 450px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h3, p {
+    color: white;
+    font-family: Rubik;
+    text-align: center;
+}
+
+hr {
+    width: 250px;
+    margin: 20px auto;
+    border-color: #00B0E0;
+}
+
+.services {
+    width: 730px;
+    height: 1740px;
+    margin: 150px auto;
+}
+
+.imagePoint {
+    width: 280px;
+    height: 190px;
+}
+
+.points {
+    width: 730px;
+    height: 200px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    border: 3px solid #1900FF;
+    border-radius: 50px 0;
+    margin-top: 20px;
+}
+
+
+.text {
+    padding: 10px 30px;
+    background-color: transparent;
+}
+
+h2 {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+}
+
+.desc {
+    text-align: left;
+    font-family: Rubik;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: transparent;
+    border: 3px solid #1900FF;
+    border-radius: 30px;
+    margin: 50px 260px;
+}
+
+.packageOfServices {
+    width: 960px;
+    height: 1035px;
+    margin: 0 auto;
+}
+
+.packageBlock {
+    width: 960px;
+    height: 370px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.package {
+    width: 300px;
+    height: 370px;
+    background-color: transparent;
+    border: 3px solid #1900FF;
+    border-radius: 30px;
+}
+
+.btnTwo {
+    background-color: transparent;
+    border: 3px solid #1900FF;
+    border-radius: 30px;
+    margin: 50px 355px;
+}
+
 .special_suggestion {
     background-image: url("/aition/public/img/fon.png");
     width: 1440px;
@@ -48,7 +214,7 @@
 .orders {
     background-image: url("/aition/public/img/fon2.png");
     width: 1440px;
-    height: 600px;
+    height: 650px;
     margin: 50px auto;
     padding: 50px 0 0 60px;
 }
@@ -73,7 +239,7 @@
     padding: 20px;
     width: 400px;
     height: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     color: white;
     font-size: 20px;
 }
@@ -98,7 +264,7 @@
     font-family: Rubik, sans-serif;
     font-weight: 400;
     cursor: pointer;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 .form > p {
     font-family: Rubik, sans-serif;
@@ -110,7 +276,7 @@
 .form {
     position: absolute;
     left: 1100px;
-    top: 850px;
+    top: 5050px;
     width: 600px;
     height: 550px;
     border: 1px solid rgba(25, 0, 255, 1);

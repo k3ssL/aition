@@ -3,6 +3,17 @@
     font-family: Rubik;
 }
 
+@font-face {
+    src: url("shared/fonts/ABeeZee-Regular.ttf");
+    font-family: ABZ;
+}
+
+@font-face {
+    src: url("shared/fonts/RussoOne-Regular.ttf");
+    font-family: Russ;
+}
+
+
 * {
     margin: 0;
     padding: 0;
